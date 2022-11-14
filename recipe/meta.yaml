@@ -17,6 +17,8 @@ requirements:
   host:
     - python 
     - pip
+    - setuptools
+    - wheel
   run:
     - python 
 
@@ -39,6 +41,7 @@ about:
     characters, from the Unicode Character Database (UCD). This module 
     provides an alternative to Python's standard library unicodedata. 
   dev_url: https://github.com/dylan-profiler/tangled-up-in-unicode
+  doc_url: https://github.com/dylan-profiler/tangled-up-in-unicode
 
 extra:
   recipe-maintainers:
